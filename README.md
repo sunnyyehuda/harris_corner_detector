@@ -11,4 +11,4 @@ using the Sobel filter to extract the derivatives of the image in X axis and the
 
 # Walk through
 there is an image from google, just for the example.
-set the master/ slave flag to 0 or 1 (if using with image stiching other wise can earase the partition).
+set the master/ slave flag to 0 or 1 (if you using it with image stiching program, otherwise can erase the partition).
