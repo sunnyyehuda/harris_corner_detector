@@ -1,6 +1,8 @@
 # harris_corner_detector
 This program implement the Harris algorithm for corner detection.
 using the Sobel filter to extract the derivatives of the image in X axis and the Y axis.
+then construct the tensor setup matrix and calculate the minimum eigenvalue for each set of coordinate at the image
+if the minimum eigenvalue is above the threshold (300), mark the point (corner).
 
 # Requirements
 - python 3.7 (tested)
@@ -11,4 +13,4 @@ using the Sobel filter to extract the derivatives of the image in X axis and the
 
 # Walk through
 there is an image from google, just for the example.
-set the master/ slave flag to 0 or 1 (if you using it with image stiching program, otherwise can erase the partition).
+you can set the treshold in the if statement on the code, and choose the color of the corners marked.
