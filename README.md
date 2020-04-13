@@ -13,4 +13,4 @@ if the minimum eigenvalue is above the threshold (300), mark the point (corner).
 
 # Walk through
 there is an image from google, just for the example.
-you can set the treshold in the if statement on the code, and choose the color of the corners marked.
+you can set the threshold in the if statement on the code, and choose the color of the corners marked.
